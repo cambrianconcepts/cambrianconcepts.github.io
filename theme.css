@@ -7,3 +7,48 @@ h1 {
             font-size: 22px;            
 
 }
+
+.my_font{ font-size: 99px 
+}
+
+a:hover {
+    color: coral;
+    }
+
+a:focus {   
+    color: cornflowerblue;
+    text-decoration: none;
+    }
+
+.my_box {   
+    border: 10px solid black;
+    background-color: aliceblue;
+    padding:20px;
+    margin: 20px;
+    
+    width: 50%;
+    height: 400px;  
+    background-image: url(Images/Nasa\ Insight\ C.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    @media (max-width: 500px) { 
+        h1{
+            front-size:10px;
+        }
+    }
+}
+
+.form {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myinput {
+    width: 50%;
+    margin: 3px
+}
