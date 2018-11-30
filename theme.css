@@ -52,3 +52,7 @@ a:focus {
     width: 50%;
     margin: 3px
 }
+
+.btn-primary {
+color: aqua
+}
