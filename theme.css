@@ -64,3 +64,30 @@ color: brown;
 .center_me { 
 margin: auto; max-width: 300px;
 }
+
+.my_link:hover {
+    text-decoration: none;
+
+}
+
+.my_link: {
+    color:brown;
+}
+
+.general_spacing{
+    margin-bottom: 60px;
+
+}
+
+.imagecontainer {
+    height: 300px!important;
+    width: 300px!important;
+}
+
+.parallex_header {      
+    background-image: url(Images/Nasa\ Insight\ C.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    }
