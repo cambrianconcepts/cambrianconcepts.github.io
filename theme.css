@@ -54,7 +54,7 @@ a:focus {
 }
 
 .btn-primary {
-color: aqua;
+color: white;
 }
 
 .my_icon_color {
@@ -81,11 +81,21 @@ margin: auto; max-width: 300px;
 
 .imagecontainer {
     height: 300px!important;
-    width: 300px!important;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .parallex_header {      
     background-image: url(Images/Nasa\ Insight\ C.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.parallex_header_hbt {      
+    background-image: url(Images/HBTTechframe.jpg);
     background-attachment: fixed;
     background-size: cover;
     margin-left: auto;
