@@ -54,9 +54,13 @@ a:focus {
 }
 
 .btn-primary {
-color: aqua
+color: aqua;
 }
 
 .my_icon_color {
-color: brown
+color: brown;
+}
+
+.center_me { 
+margin: auto; max-width: 300px;
 }
