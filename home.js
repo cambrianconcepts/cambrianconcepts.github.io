@@ -29,3 +29,31 @@ space = " ";
 var fullName = firstName + space + lastName;
 
 console.log(fullName);
+
+  var myHtmlValue;
+  myHtmlValue = document.getElementById("my_name").value;
+  console.log(myHtmlValue); 
+
+// Location 
+
+  function calculate(myLocation, myLocation2, myLocation3) {    
+      var myName = "This is Stackup at" + myLocation;
+      console.log(myName); 
+    }
+
+  calculate("One North", "JTC Launchpad");
+  calculate("test","test");
+
+  // this is a function 
+
+  function getMyFullName(){
+    var firstName = "stackup";
+    var lastName = "One North";
+    var fullName = firstName + "" + lastName; 
+    return fullName;
+  }
+
+  // this is 
+
+  var getMyFullName = getMyFullName();
+  console.log(getMyFullName);
