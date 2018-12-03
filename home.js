@@ -31,20 +31,20 @@ var fullName = firstName + space + lastName;
 console.log(fullName);
 
   var myHtmlValue;
-  myHtmlValue = document.getElementById("my_name").value;
+  myHtmlValue = document.getElementById("my_name").value; // Get the element with id="my_name"
   console.log(myHtmlValue); 
 
-// Location 
+// this is new function
 
   function calculate(myLocation, myLocation2, myLocation3) {    
-      var myName = "This is Stackup at" + myLocation;
+      var myName = "This is Stackup at" + "" + myLocation + "" + myLocation2; // Get the element with id="my_name"
       console.log(myName); 
     }
 
   calculate("One North", "JTC Launchpad");
   calculate("test","test");
 
-  // this is a function 
+  // this is new function
 
   function getMyFullName(){
     var firstName = "stackup";
@@ -53,7 +53,28 @@ console.log(fullName);
     return fullName;
   }
 
-  // this is 
+  // this is new function
 
   var getMyFullName = getMyFullName();
   console.log(getMyFullName);
+
+    // this is new function 
+
+     
+
+  function greet(firstName, lastName, bornYear) {
+        var age = 2018 - bornYear;
+        var greetings= "Hello, Omega Moonlanding" + firstName + "" + lastName + "" + age;
+      console.log(greetings)
+  }
+
+  greet("michael","jordan", 1988);
+  greet("michael","jackson", 1988);
+  greet("michael","wong", 1988);
+
+  function testMe(){
+    alert("hi you hit the button");
+
+  }
+
+  
