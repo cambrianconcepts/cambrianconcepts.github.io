@@ -93,9 +93,89 @@ function calculateseven(firstName, lastName, bornYear) {
 //the below defines the variable of the above by calling to get value from Element in tml 
 first_number = document.getElementById("firstNumber").value;
 second_number = document.getElementById("secondNumber").value;
+operator = document.getElementById("operator").value;
 
-total = parseInt(first_number) + parseInt(second_number);
+if(operator == "+"){
+  total = parseInt(first_number) + parseInt(second_number);
+}
+
+else if(operator == "-"){
+  total = parseInt(first_number) - parseInt(second_number);
+}
+
+else if(operator == "+"){
+  total = parseInt(first_number) / parseInt(second_number);
+}
+
+else if(operator == "+"){
+  total = parseInt(first_number) * parseInt(second_number);
+}
 
 document.getElementById("result").value = total;
-
 }
+
+//creation of conditional logic
+
+var greet = "afternoon";
+if(greet == "morning"){
+console.log("This is Morning"); // if greet==morning, then console.log executes this line, if false move to next step
+}
+
+else if(greet == "afternoon"){
+  console.log("This is Morning"); 
+}
+
+else if(greet == "evening"){
+  console.log("This is Morning");
+}
+
+else if(greet == "evening"){
+  console.log("This is Morning");
+}
+
+else{
+  console.log("This is Morning");
+}
+
+
+// primeNumber
+
+var greetings = ["Morning", "Afternoon", "Evening"]; 
+console.log(greetings);
+console.log(greetings.length);
+
+console.log(greetings [1]);
+console.log(greetings [2]);
+console.log(greetings [3]);
+
+var primeNumber = [1, 3, 5, 7, 9, 13]; 
+console.log(primeNumber.length - 1);
+
+// looping 
+
+var step = 0;
+while( step < primeNumber.lenghth ){  
+  console.log(step); 
+  step = step + 1; 
+}
+
+var Number = [1,2,3,4,5,6,7,8,9,10];
+
+//if number -> "Even number"
+//not even number
+// while + if else
+
+step = 0;
+while( step <number.length ){  
+  var isEven = numbers[step] % 2;
+
+  if(isEven == 0) { 
+    console.log(numbers[step] + "is even number"); 
+  } else {
+    console.log(number[step] + " is not even number");
+  }
+  
+  step = step + 1;
+  }
+  
+
