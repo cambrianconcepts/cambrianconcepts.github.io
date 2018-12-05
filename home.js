@@ -65,7 +65,7 @@ console.log(fullName);
   function greet(firstName, lastName, bornYear) {
         var age = 2018 - bornYear;
         var greetings= "Hello, Omega Moonlanding" + firstName + "" + lastName + "" + age;
-      console.log(greetings)
+      console.log(greet)
   }
 
   greet("michael","jordan", 1988);
@@ -77,4 +77,25 @@ console.log(fullName);
 
   }
 
+  // Day 7 
+
+  // to get value of html element
+//document.getElementById("firstNumber"), value;
   
+// to display value 
+//document.getElementById("Result"), value = "";
+
+function calculateseven(firstName, lastName, bornYear) {
+  var firstNumber;
+  var secondNumber;
+  var total;
+ 
+//the below defines the variable of the above by calling to get value from Element in tml 
+first_number = document.getElementById("firstNumber").value;
+second_number = document.getElementById("secondNumber").value;
+
+total = parseInt(first_number) + parseInt(second_number);
+
+document.getElementById("result").value = total;
+
+}
