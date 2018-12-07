@@ -159,23 +159,55 @@ while( step < primeNumber.lenghth ){
   step = step + 1; 
 }
 
-var Number = [1,2,3,4,5,6,7,8,9,10];
+var number = [1,2,3,4,5,6,7,8,9,10];
 
 //if number -> "Even number"
 //not even number
 // while + if else
 
 step = 0;
-while( step <number.length ){  
-  var isEven = numbers[step] % 2;
+while( step <number.length){  
+  var isEven = number[step] % 2;
 
   if(isEven == 0) { 
-    console.log(numbers[step] + "is even number"); 
+    console.log(number[step] + "is even number"); 
   } else {
-    console.log(number[step] + " is not even number");
+    console.log(number[step] + "is not even number");
   }
   
   step = step + 1;
   }
   
+
+  var numbers_2 = [1,2,3,4,5,6,7,8,9,10]; 
+  for( var a = 0; a < numbers_2.length; a++); {
+    console.log(numbers_2[a]);
+
+  }
+  var collections = []; 
+  console.log(collections);
+  collections.push("Test");
+  console.log(collections);
+  collections.push("Test 2");
+  console.log(collections); 
+
+  
+  var myCollections = [ ]; 
+  function addMe(){
+    var myText = document.getElementById("myText").value; 
+    myCollections.push(myText); // initialize and add myText as another value in the array of myCollections
+    
+    document.getElementById("myResult").innerHTML = ""; // empty this element. 
+    for( var a = 0; a < myCollections.length ; a++){
+      var currValue = myCollections[a] + "<br>";
+      var currResultValue = document.getElementById("myResult").innerHTML;
+      document.getElementById("myResult").innerHTML = currResultValue + currValue; 
+    }
+    
+    //document.getElementById("myResult").innerHTML = "This in Test only";
+  }
+  
+  var test = document.getElementById("myResult").innerHTML; 
+  console.log(test);
+
 
